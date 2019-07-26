@@ -9,6 +9,7 @@
       <class name="eply.com.Tests.ViewMyFormsTest"/>
       <class name="eply.com.Tests.SpecificFormPageTest"/>
       <class name="eply.com.Tests.ForgotPasswordTest"/>
+      <class name="eply.com.Tests.BaseTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

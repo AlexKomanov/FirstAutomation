@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="eply.com.Tests.ViewMyFormsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="dropDownFail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.Tests.ViewMyFormsTest -->
+      <class name="eply.com.Tests.ForgotPasswordTest">
+        <methods>
+          <include name="msgText"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.Tests.ForgotPasswordTest -->
+      <class name="eply.com.Tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginFailure"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.Tests.LoginTest -->
+      <class name="eply.com.Tests.SpecificFormPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="isErrorExist"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.Tests.SpecificFormPageTest -->
+      <class name="eply.com.Tests.SearchAllTest">
+        <methods>
+          <include name="setup"/>
+          <include name="msgText"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.Tests.SearchAllTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
